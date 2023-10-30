@@ -70,6 +70,8 @@ public class PolicyDemo
             numSmokers++;
       }
       
+      System.out.println(policyList.toString());
+      
       //print out the number of smokers and non-smokers
       System.out.println("The number of policies with a smoker is: " + numSmokers);
       System.out.println("The number of policies with a non-smoker is: " + (policyList.size() - numSmokers) );
