@@ -8,11 +8,14 @@ public class Policy
    private String smokingStatus;
    private double height;
    private double weight;
+   private static policyObjects;
    
    public String toString()
    {
       
    }
+   
+   
    /**
    No-arg constructor that explicitly initializes all fields
    */
