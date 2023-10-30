@@ -9,11 +9,6 @@ public class PolicyHolder
       return policyNumber;
    }
    
-   public String toString()
-   {
-      
-   }
-
    /**
    @return The Policy Provider's Name
    */
@@ -136,6 +131,11 @@ public class PolicyHolder
       weight = w;
    }
    
+   public String toString()
+   {
+      
+   }
+
    /**
    Calculates the Policyholder's BMI
    @return The BMI of the Policyholder
