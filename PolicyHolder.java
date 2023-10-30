@@ -9,6 +9,11 @@ public class PolicyHolder
       return policyNumber;
    }
    
+   public String toString()
+   {
+      
+   }
+
    /**
    @return The Policy Provider's Name
    */
